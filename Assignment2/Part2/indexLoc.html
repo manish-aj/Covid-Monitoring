@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>Contact Tracing</title>
+		<meta charset="UTF-8">
+		<script src="./computeMatrix.js"></script>
+		<style>
+			h1 {
+			  color: maroon;
+			  margin-left: 40px;
+			}
+
+			html, body {
+				height: 100%;
+			}
+
+			html {
+				display: table;
+				margin: auto;
+			}
+
+			body {
+				display: table-cell;
+				vertical-align: middle;
+				
+				background-color: linen;
+			  	margin:0 auto;
+			}
+			</style>
+	</head>
+	<body>
+		<div class="divMyClass">
+			<div class="mainClass">
+				<form action="#" method="post" name="name" id="id" class="class" >
+					<h3>Enter Subject ID and Date for Contact Tracing:</h3>
+					<label>Subject ID :</label>
+					<input type="text" name="sid" id="sid" placeholder="Subject ID" />
+					<label>Date :</label>
+					<input type="text" name="date" id="date" placeholder="YYYY-MM-DD" />
+					<input type="button" name="submit" id="btn" value="Submit Form" onclick="submitForm()"/>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
